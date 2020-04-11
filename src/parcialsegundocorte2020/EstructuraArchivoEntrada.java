@@ -11,11 +11,11 @@ package parcialsegundocorte2020;
  */
 public class EstructuraArchivoEntrada {
     public String sexo;
-    public String RangoEdad;
+    public int RangoEdad;
     public String Codigo;
     public String CodigoCiudad;
     
-    public EstructuraArchivoEntrada(String sexo, String edad, String codigo, String ciudad){
+    public EstructuraArchivoEntrada(String sexo, int edad, String codigo, String ciudad){
         this.sexo=sexo;
         this.RangoEdad=edad;
         this.Codigo=codigo;

@@ -29,7 +29,7 @@ public class ExtraccionArchivo {
                 List<String> record=getRecordFromLine(scanner.nextLine());
                 EstructuraArchivoEntrada dato=new EstructuraArchivoEntrada();
                 dato.sexo=(record.get(12).equals("1"))? "M":"F";
-                dato.RangoEdad=record.get(14);
+                dato.RangoEdad=Integer.parseInt(record.get(14));
                 dato.Codigo=record.get(54);
                 dato.CodigoCiudad=record.get(0);
                 listadoFinal.add(dato);
